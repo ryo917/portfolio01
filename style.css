@@ -1,0 +1,349 @@
+/*共通ページ*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.subject {
+    display: block;
+    text-align: center;
+}
+
+.subject h2{
+    display: none;
+}
+
+/*トップバナー*/
+
+#title {
+    background-image: url(img/dental01.jpg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    padding-bottom: 600px;
+}
+
+a {
+    text-decoration: none;
+}
+#mainlogo {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+a h1 {
+    line-height: 90px;
+    margin-top: 0;
+    float: left;
+    color: #33ccff;
+
+}
+
+/*ナビゲーション*/
+nav {
+    float: right;
+    width: 1000px;
+    height: 200px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #000;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    margin-top: 40px;
+    list-style: none;
+}
+
+
+nav li {
+    float: left;
+    font-size: 16px;
+}
+
+/*コンテンツロゴ*/
+.subject img {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+/*当院について*/
+.contents01 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.co h2,.contents01 p, {
+    text-align: center;
+}
+
+.greeting p {
+    text-align: center;
+}
+
+.contents01 h3 {
+    color: red;
+}
+
+/*院長からご挨拶*/
+.contents02 {
+    overflow: hidden;
+}
+
+.human {
+    margin: 0 auto;
+}
+
+.human img {
+    padding: 20px 200px;
+    float: left;
+}
+
+.career {
+    border-style: double;
+    border-color: #00ff00;
+    background-color: #f5fffa;
+    padding: 10px;
+}
+
+.carrer-sub {
+    color: blue;
+}
+
+/*初めての方へ*/
+.flow {
+    border-style: double;
+    border-color: #ff5a00;
+    background-color: #fff8dc;
+    width: 700px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.flow h4 {
+    color: #ff5a00;
+    margin: 0;
+}
+
+.flow p {
+    margin: 5px;
+}
+
+.arrow {
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*治療内容*/
+#main {
+    margin: 40px auto;
+    max-width: 80%;
+}
+
+.contents03 {
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sub-image {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.sub-contents {
+    width: 200px;
+    height: 220px;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.sub-contents h3 {
+    margin: 10px 0 5px 0;
+}
+
+.sub-contents p {
+    margin-top: 0;
+}
+
+.box {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-top: solid 1px #0393e5;
+    border-bottom: solid 1px #0393e5;
+    position: relative;
+}
+
+.box {
+    overflow: hidden;
+}
+
+.box span {
+    color: red;
+    font-size: 16px;
+}
+
+.img-box {
+    height: 225px;
+    width: 300px;
+    margin-right: 20px;
+    object-fit: cover;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.description h3 {
+    background-color: #3fa9f5;
+    color: white;
+    padding: 5px 15px;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.active01,{
+    display: block;
+}
+
+.active02, .active03, .active04, .active05 {
+    display: none;
+}
+
+/*アクセス*/
+.contents04 {
+    overflow: hidden;
+}
+
+.acc {
+    float: left;
+    display: inline-block;
+    margin: 40px;
+}
+
+.acc h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.acc td {
+    padding-right: 20px;
+}
+
+.week {
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.week th, .week td {
+    border: solid 1px #0393e5;
+}
+
+.day {
+    background-color: #0393e5;
+    color: white;
+}
+
+td {
+    font-size: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+/*お問い合わせ*/
+form {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+input,textarea{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 60px;
+    border: none;
+    background: #f6f5f5;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    height: 400px;
+    border: none;
+    background: #f6f5f5;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background: #0393e5;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    float: right;
+}
+
+/*バリデーション*/
+.help-block{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/*エラー時*/
+.has-error input, .has-error textarea{
+    border: 1px solid #ff4d4b;
+}
+.has-error .help-block, .has-error label{
+    color: #ff4d4b;
+}
+/*サクセス時*/
+.has-success input, .has-success textarea{
+    border: 1px solid #2fb4ce;
+}
+.has-success .help-block, .has-success label{
+    color: #2fb4ce;
+}
+
+/*フッター*/
+footer{
+    font-size: 12px;
+    padding: 15px;
+    background: #333;
+    text-align: center;
+    color: #f6f5f5;
+    margin-top: 200px;
+}
+
+footer a{
+    color: #f6f5f5;
+}

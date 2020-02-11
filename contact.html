@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <title>willデンタルクリニック</title>
+    </head>
+    <body>
+
+        <!--メニュー-->
+        <header id="title">
+            <div id="top-title">
+                <a href="index.html">
+                    <img src="img/mainlogo.png" id="mainlogo">
+                    <h1>will dental clinic</h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">当院について</a></li>
+                    <li><a href="#doctor">院長について</a></li>
+                    <li><a href="#beginner">初めての方へ</a></li>
+                    <li><a href="medical.html#medical">治療内容</a></li>
+                    <li><a href="medical.html#access">アクセス・診療時間</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="main">
+        <!--お問い合わせ-->
+            <section class="site-width">
+                <div class="co contents05">
+                    <div class="subject">
+                        <img src="img/will-logo.png" id="medical" class="logo">
+                        <h2 id="medical">お問い合わせ</h2>
+                    </div>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label>名前：※必須<span class="help-block"></span>
+                            <input type="text" name="name" class="valid-text">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>E-mail：※必須<span class="help-block"></span>
+                            <input type="text" name="email" class="valid-email">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>内容：※必須<span class="help-block"></span>
+                            <textarea cols="100" rows="10" name="comment" id="count-text" class="valid-textarea"></textarea>
+                            <div class="counter-container"><span class="show-count-text">0</span>/1000</div>
+                        </label>
+                    </div>
+                    <input type="submit" name="submit" value="送信" class="valid-submit">
+                </form>
+            </section>
+        </div>
+
+        <!--フッター-->
+        <footer>
+            Copyright <a href="index.html">will dental clinicホームページ</a>. All Rights Reserved.
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
