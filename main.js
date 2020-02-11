@@ -37,10 +37,10 @@ $(function(){
 
     $('#inplant img').hover(
     function() {
-        $inplant.fadeIn(1500);
+        $inplant.fadeIn('slow');
     },
     function() {
-        $inplant.fadeOut(1500);
+        $inplant.fadeOut('slow');
     });
 
     /*ホワイトニング画像にマウスを乗せた場合*/
