@@ -4,10 +4,10 @@ $(function(){
     $('.subject img').hover(
     function() {
         $(this).next('h2').fadeIn();
-      },
+    },
     function(){
         $(this).next('h2').show();
-      });
+    });
 
     /*medical.html*/
     /*一般歯科の画像にマウスを乗せた場合*/
@@ -16,10 +16,10 @@ $(function(){
     $('#ippan img').hover(
     function() {
         $ippan.css('color','blue');
-        },
+    },
     function() {
         $ippan.css('color','black');
-        });
+    });
 
     /*矯正画像にマウスを乗せた場合*/
     var $kyosei = $('#kyosei').find('p');
@@ -27,10 +27,10 @@ $(function(){
     $('#kyosei img').hover(
     function() {
         $kyosei.show();
-        },
+    },
     function() {
         $kyosei.hide();
-        });
+    });
 
     /*インプラント画像にマウスを乗せた場合*/
     var $inplant = $('#inplant').find('p');
@@ -38,10 +38,10 @@ $(function(){
     $('#inplant img').hover(
     function() {
         $inplant.fadeIn(1500);
-        },
+    },
     function() {
-        $inplant.fadeOut();
-        });
+        $inplant.fadeOut(1500);
+    });
 
     /*ホワイトニング画像にマウスを乗せた場合*/
     var $whitening = $('#whitening').find('p');
@@ -49,10 +49,10 @@ $(function(){
     $('#whitening img').hover(
     function(){
         $whitening.slideDown();
-        },
+    },
     function(){
         $whitening.slideUp();
-        });
+    });
 
     /*その他画像にマウスを乗せた場合*/
     var $other = $('#other').find('p');
@@ -60,10 +60,10 @@ $(function(){
     $('#other img').hover(
     function(){
         $other.css('display','block').animate({fontSize:'20px'},500);
-        },
+    },
     function(){
         $other.animate({fontSize:'16px'}).hide();
-        });
+    });
 
     /*contact.html*/
     /*文字数カウント*/
